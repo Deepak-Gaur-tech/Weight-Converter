@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+    text-align: center;
+
+}
+
+.container{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 8px white;
+    color: blue;
+}
+
+.Weight-converter{
+   
+    height:50px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    padding: 10px;
+    background-color: bisque;
+    margin-bottom: 10px;
+
+
+}
+
+.input label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.input input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    
+}
+
+.pound p{
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 700;
+
+}
